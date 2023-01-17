@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  background-color: black;
+}
+
+.title {
+  color: white;
+}
+
+.error {
+  color: red;
+}
+
+.already_user {
+  display: flex;
+  color: white;
+  margin-top: 10px;
+}
+
+.already_user span {
+  margin-right: 10px;
+}
+
+.clickable_span {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.lineContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  width: 30%;
+  height: 4vh;
+}
+
+.lineContainer input {
+  width: 70%;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+}
+
+.lineContainer span {
+  align-self: center;
+  width: 50%;
+  color: white;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  height: 50px;
+  font-size: large;
+  align-items: center;
+  cursor: pointer;
+}

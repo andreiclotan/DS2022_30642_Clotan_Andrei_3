@@ -1,0 +1,64 @@
+.input {
+  display: flex;
+  width: 100%;
+  color: wheat;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.input input {
+  width: 400px;
+  height: 60px;
+}
+
+.text_container {
+  margin-bottom: 20px;
+}
+
+.input_container {
+  display: flex;
+  align-self: center;
+}
+
+.input_container button {
+  width: 100px;
+  margin-left: 20px;
+}
+.seen {
+  align-self: flex-end;
+}
+.text_container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin-left: 500px;
+  margin-right: 500px;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.user_message {
+  display: flex;
+  height: 40px;
+  background-color: blue;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+  align-self: flex-end;
+}
+
+.other_message {
+  display: flex;
+  align-self: flex-start;
+  height: 40px;
+  background-color: grey;
+  padding-left: 60px;
+  padding-right: 60px;
+  margin-bottom: 10px;
+  border-radius: 16px;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,164 @@
+.wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wrapper h2 {
+  color: var(--text-color);
+  margin-top: 15px;
+}
+
+.header {
+  height: 60px;
+  background: var(--dark-blue-50);
+  border-radius: 16px 16px 0px 0px;
+  padding: 0 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.header1 {
+  height: auto;
+  width: 400px;
+  background: var(--dark-blue-50);
+  border-radius: 16px 16px 0px 0px;
+  padding: 0 30px;
+  padding-top: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  background-color: grey;
+}
+
+.white_container {
+  background: white;
+  height: 300px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--fc-border-color);
+  overflow: scroll;
+}
+
+.white_container1 {
+  background: white;
+  width: 400px;
+  height: 300px;
+  padding: 0 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid var(--fc-border-color);
+  overflow: scroll;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.modal {
+  width: 300px;
+  margin-top: 100px;
+}
+
+.line_container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.line_container span {
+  color: black;
+}
+
+.line_container textarea {
+  border-radius: 8px;
+
+  margin-left: 5px;
+}
+
+.footer {
+  height: 70px;
+  background: grey;
+  border-radius: 0px 0px 16px 16px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.footer1 {
+  height: 70px;
+  width: 400px;
+  background: grey;
+  border-radius: 0px 0px 16px 16px;
+  padding: 0 30px;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.footer button {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+}
+
+.footer1 button {
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  font-size: large;
+  align-items: center;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+}
+
+.line_container input {
+  border-radius: 8px;
+  height: 30px;
+}
+
+.title_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.items1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.smtg {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
